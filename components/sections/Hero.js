@@ -1,9 +1,9 @@
-export default function Hero() {
+export const Hero = () => {
   return (
     <>
       <section id='hero-header' className='min-h-screen'>
-        <div>Hero Header</div>
+        <div></div>
       </section>
     </>
   );
-}
+};
