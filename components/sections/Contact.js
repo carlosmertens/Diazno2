@@ -1,9 +1,7 @@
-import React from 'react';
-
 export default function Contact() {
   return (
     <>
-      <section id='contact-section' className='bg-gray-100'>
+      <section id='contact-section' className=''>
         <div>Section Contact</div>
       </section>
     </>
