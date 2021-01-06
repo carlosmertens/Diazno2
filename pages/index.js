@@ -1,7 +1,14 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/layouts/Navbar';
+import Footer from '../components/layouts/Footer';
+import Hero from '../components/sections/Hero';
+import Music from '../components/sections/Music';
+import Tours from '../components/sections/Tours';
+import Photos from '../components/sections/Photos';
+import Store from '../components/sections/Store';
+import Bio from '../components/sections/Bio';
+import Contact from '../components/sections/Contact';
 
 export default function Home() {
   return (
@@ -14,27 +21,13 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
-        <section id='hero-section' className='min-h-screen bg-gray-400'>
-          <div>Section Hero</div>
-        </section>
-        <section id='-music-section'>
-          <div>Section Music & Videos</div>
-        </section>
-        <section id='tours-section'>
-          <div>Section Tours</div>
-        </section>
-        <section id='photos-section'>
-          <div>Section Photos</div>
-        </section>
-        <section id='store-section'>
-          <div>Section Store</div>
-        </section>
-        <section id='bio-section'>
-          <div>Section Bio</div>
-        </section>
-        <section id='contact-section'>
-          <div>Section Contact</div>
-        </section>
+        <Hero />
+        <Music />
+        <Tours />
+        <Photos />
+        <Store />
+        <Bio />
+        <Contact />
       </main>
       <Footer />
     </Fragment>
