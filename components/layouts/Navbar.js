@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className='flex items-center justify-between pl-8 py-6'>
         <div>
           <Link href='/'>
-            <a className='text-6xl text-mine-shaft'>D!azno</a>
+            <a className='text-5xl text-mine-shaft'>D!azno</a>
           </Link>
         </div>
 
@@ -20,7 +20,7 @@ export const Navbar = () => {
               setIsOpen(!isOpen);
             }}>
             <svg
-              className='h-12 w-12 fill-current'
+              className='h-10 w-10 fill-current'
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'

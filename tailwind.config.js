@@ -11,6 +11,10 @@ module.exports = {
         emperor: '#545454',
         scorpion: '#5C5C5C',
       },
+      backgroundImage: (theme) => ({
+        hero: "url('/hero.jpg')",
+        'hero-small': "url('/hero-small.jpg')",
+      }),
     },
   },
   variants: {
