@@ -1,4 +1,4 @@
-export default function Store() {
+export const Store = () => {
   return (
     <>
       <section id='store-section' className=''>
@@ -6,4 +6,4 @@ export default function Store() {
       </section>
     </>
   );
-}
+};

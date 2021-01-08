@@ -1,4 +1,4 @@
-export default function Photos() {
+export const Photos = () => {
   return (
     <>
       <section id='photos-section' className=''>
@@ -6,4 +6,4 @@ export default function Photos() {
       </section>
     </>
   );
-}
+};

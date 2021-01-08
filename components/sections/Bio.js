@@ -1,4 +1,4 @@
-export default function Bio() {
+export const Bio = () => {
   return (
     <>
       <section id='bio-section' className=''>
@@ -6,4 +6,4 @@ export default function Bio() {
       </section>
     </>
   );
-}
+};

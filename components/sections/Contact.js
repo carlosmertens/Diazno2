@@ -1,4 +1,4 @@
-export default function Contact() {
+export const Contact = () => {
   return (
     <>
       <section id='contact-section' className=''>
@@ -6,4 +6,4 @@ export default function Contact() {
       </section>
     </>
   );
-}
+};

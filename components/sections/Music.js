@@ -1,4 +1,4 @@
-export default function Music() {
+export const Music = () => {
   return (
     <>
       <section id='music-section' className=''>
@@ -6,4 +6,4 @@ export default function Music() {
       </section>
     </>
   );
-}
+};

@@ -1,4 +1,4 @@
-export default function Tours() {
+export const Tours = () => {
   return (
     <>
       <section id='tours-section' className=''>
@@ -6,4 +6,4 @@ export default function Tours() {
       </section>
     </>
   );
-}
+};
