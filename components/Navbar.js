@@ -4,7 +4,7 @@ import { useState } from 'react';
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className='bg-transparent md:flex md:items-center md:justify-between'>
+    <nav className='sticky top-0 bg-transparent md:flex md:items-center md:justify-between'>
       <div className='flex items-center justify-between pl-8 py-6'>
         <div>
           <Link href='/'>

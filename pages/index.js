@@ -15,7 +15,8 @@ export default function Home() {
     <>
       <HeroLayout>
         <Navbar />
-        <Hero />
+        {/* <Hero /> */}
+        <Footer />
       </HeroLayout>
       <MainLayout>
         <Music />
@@ -25,7 +26,6 @@ export default function Home() {
         <Bio />
         <Contact />
       </MainLayout>
-      <Footer />
     </>
   );
 }

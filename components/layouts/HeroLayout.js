@@ -7,7 +7,7 @@ export const HeroLayout = ({ children }) => {
         <title>Diazno 2.0</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <header className='bg-hero-small bg-cover bg-center md:bg-hero md:bg-bottom lg:bg-center'>
+      <header className='min-h-screen relative bg-hero-small bg-cover bg-center md:bg-hero md:bg-bottom lg:bg-center'>
         {children}
       </header>
     </>
