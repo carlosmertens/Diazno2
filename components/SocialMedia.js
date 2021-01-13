@@ -7,10 +7,7 @@ import {
 
 const ShareSocial = ({ transparent }) => {
   return (
-    <div
-      className={`share-social text-xl ${
-        transparent ? '' : 'bg-gray-600'
-      } text-white flex items-center justify-center`}>
+    <div className='social-media text-xl text-white flex items-center justify-center'>
       <a
         target='_blank'
         rel='noreferrer noopener'

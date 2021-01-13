@@ -1,7 +1,8 @@
-import { HeroLayout } from '../components/layouts/HeroLayout';
+import React from 'react';
+import { PageLayout } from '../components/layouts/PageLayout';
+// import { HeroLayout } from '../components/layouts/HeroLayout';
 import { MainLayout } from '../components/layouts/MainLayout';
-import { Navbar } from '../components/Navbar';
-import { Hero } from '../components/sections/Hero';
+// import { Navbar } from '../components/Navbar';
 import { Music } from '../components/sections/Music';
 import { Tours } from '../components/sections/Tours';
 import { Photos } from '../components/sections/Photos';
@@ -12,20 +13,21 @@ import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
-    <>
-      <HeroLayout>
-        <Navbar />
-        {/* <Hero /> */}
+    <React.Fragment>
+      <PageLayout>
+        {/* <HeroLayout>
+          <Navbar />
+        </HeroLayout> */}
+        <MainLayout>
+          <Music />
+          <Tours />
+          <Photos />
+          <Store />
+          <Bio />
+          <Contact />
+        </MainLayout>
         <Footer />
-      </HeroLayout>
-      <MainLayout>
-        <Music />
-        <Tours />
-        <Photos />
-        <Store />
-        <Bio />
-        <Contact />
-      </MainLayout>
-    </>
+      </PageLayout>
+    </React.Fragment>
   );
 }
