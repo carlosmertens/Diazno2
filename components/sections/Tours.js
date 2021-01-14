@@ -3,13 +3,21 @@ export const Tours = () => {
     <>
       <section
         id='tours-section'
-        className='min-h-screen grid grid-cols-12 gap-0'>
-        <div className='bg-purple-400'>
-          <div className='bg-yellow-600'>
-            <h2 className='text-2xl'>Tour</h2>
+        className='min-h-screen grid grid-cols-12 gap-0 bg-scorpion '>
+        <div className='col-1'>
+          <div className='h-full flex flex-col items-center justify-center'>
+            <div className='w-2 h-40 bg-red-500'></div>
+
+            <h2
+              className='transform rotate-180 text-gray-100 text-2xl py-8'
+              style={{ writingMode: 'vertical-rl' }}>
+              Tours
+            </h2>
+
+            <div className='w-2 h-40 bg-red-500 '></div>
           </div>
         </div>
-        <div className='col-span-11'></div>
+        <div className='bg-dusty-gray col-span-11'></div>
       </section>
     </>
   );

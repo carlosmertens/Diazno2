@@ -18,7 +18,7 @@ export const Music = () => {
           </div>
         </div>
 
-        <div class='bg-emperor col-span-11 w-full flex items-center justify-center'>
+        <div class='bg-scorpion col-span-11 w-full flex items-center justify-center'>
           <iframe
             className=''
             src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
