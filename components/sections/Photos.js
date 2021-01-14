@@ -9,7 +9,7 @@ export const Photos = () => {
             <div className='w-2 h-40 bg-green-800'></div>
 
             <h2
-              className='transform rotate-180 text-gray-100 text-2xl py-8'
+              className='transform rotate-180 text-mine-shaft text-2xl py-8'
               style={{ writingMode: 'vertical-rl' }}>
               Photos
             </h2>
