@@ -12,8 +12,9 @@ module.exports = {
         scorpion: '#5C5C5C',
       },
       backgroundImage: (theme) => ({
-        hero: "url('/hero.jpg')",
-        'hero-small': "url('/hero-small.jpg')",
+        'hero-sm': "url('/hero-sm.jpg')",
+        'hero-md': "url('/hero-md.jpg')",
+        'hero-lg': "url('/hero-lg.jpg')",
       }),
     },
   },

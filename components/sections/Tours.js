@@ -5,7 +5,7 @@ export const Tours = () => {
     <>
       <section
         id='tours-section'
-        className='min-h-screen grid grid-cols-12 gap-0 bg-gray-200'>
+        className='min-h-screen grid grid-cols-12 gap-0 bg-dusty-gray'>
         <div className='col-span-1'>
           <SideHeading
             title='Tours'
