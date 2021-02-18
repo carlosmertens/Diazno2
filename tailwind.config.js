@@ -8,6 +8,9 @@ module.exports = {
       gridTemplateColumns: {
         section: '8% 92%',
       },
+      gridTemplateRows: {
+        music: '75% 25%',
+      },
       colors: {
         'dusty-gray': '#9A9A9A',
         'mine-shaft': '#2D2D2D',
