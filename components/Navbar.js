@@ -7,16 +7,14 @@ export const Navbar = () => {
     <nav className=' bg-transparent md:flex md:items-center md:justify-between'>
       <div className='flex items-center justify-between pl-8 py-6'>
         <div>
-          <Link href='/'>
-            <a className='text-5xl text-mine-shaft hover:text-scorpion focus:text-scorpion focus:outline-none'>
-              D!azno
-            </a>
-          </Link>
+          <h1 className='text-6xl text-mine-shaft cursor-default transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+            D!azno
+          </h1>
         </div>
 
         <div className='md:hidden pr-8'>
           <button
-            className='text-mine-shaft hover:text-scorpion focus:text-scorpion focus:outline-none'
+            className='text-mine-shaft hover:text-white focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
             type='button'
             onClick={() => {
               setIsOpen(!isOpen);
@@ -52,32 +50,32 @@ export const Navbar = () => {
           isOpen ? 'block' : 'hidden'
         } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Music & Videos
           </a>
         </Link>
         <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Tours
           </a>
         </Link>
         <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Photos
           </a>
         </Link>
         <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Store
           </a>
         </Link>
         <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Bio
           </a>
         </Link>
         <Link href='/'>
-          <a className='block mt-4 px-3 pr-5 py-1 text-mine-shaft uppercase rounded hover:bg-dusty-gray hover:text-scorpion focus:bg-dusty-gray focus:text-scorpion focus:outline-none'>
+          <a className='block mt-4 px-3 pr-5 py-1 text-mine-shaft uppercase rounded hover:text-white focus:text-mine-shaft'>
             Contact
           </a>
         </Link>

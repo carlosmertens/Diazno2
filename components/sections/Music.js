@@ -14,7 +14,7 @@ export const Music = () => {
           />
         </div>
 
-        <div className=' bg-white grid grid-rows-2 lg:grid lg:grid-cols-2 lg:mt-28'>
+        <div className=' bg-green-200 grid grid-rows-2 lg:grid lg:grid-cols-2 lg:mt-28'>
           <div className='bg-red-300 flex items-center justify-center'>
             <iframe
               className=''
