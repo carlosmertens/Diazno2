@@ -5,11 +5,11 @@ export const Tours = () => {
     <>
       <section
         id='tours-section'
-        className='min-h-screen grid grid-cols-section gap-0 bg-gray-900'>
+        className='min-h-screen grid grid-cols-section gap-0 bg-dusty-gray'>
         <div className=''>
           <SideHeading title='Tours' textColor='white' barsColor='pink-300' />
         </div>
-        <div className='bg-white'></div>
+        <div className=''></div>
       </section>
     </>
   );

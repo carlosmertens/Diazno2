@@ -6,7 +6,7 @@ export const Music = () => {
     <>
       <section
         id='music-section'
-        className='min-h-screen grid grid-cols-section gap-0'>
+        className='min-h-screen grid grid-cols-section gap-0 bg-emperor'>
         <div className=''>
           <SideHeading
             title='Music + Videos'

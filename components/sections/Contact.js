@@ -5,7 +5,7 @@ export const Contact = () => {
     <>
       <section
         id='contact-section'
-        className='min-h-screen grid grid-cols-section gap-0 bg-green-400'>
+        className='min-h-screen grid grid-cols-section gap-0 bg-dusty-gray'>
         <div className=''>
           <SideHeading
             title='Contact'
@@ -13,7 +13,7 @@ export const Contact = () => {
             barsColor='red-800'
           />
         </div>
-        <div className='bg-yellow-400'></div>
+        <div className=''></div>
       </section>
     </>
   );

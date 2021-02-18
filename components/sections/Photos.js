@@ -5,11 +5,11 @@ export const Photos = () => {
     <>
       <section
         id='photos-section'
-        className='min-h-screen grid grid-cols-section gap-0 bg-green-500'>
+        className='min-h-screen grid grid-cols-section gap-0 bg-emperor'>
         <div className=''>
           <SideHeading title='Photos' textColor='white' barsColor='yellow-300' />
         </div>
-        <div className='bg-red-500'></div>
+        <div className=''></div>
       </section>
     </>
   );
