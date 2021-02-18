@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      gridTemplateColumns: {
+        section: '8% 92%',
+      },
       colors: {
         'dusty-gray': '#9A9A9A',
         'mine-shaft': '#2D2D2D',

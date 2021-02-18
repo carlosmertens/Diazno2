@@ -5,8 +5,8 @@ export const Music = () => {
     <>
       <section
         id='music-section'
-        className='min-h-screen grid grid-cols-12 gap-0'>
-        <div className='col-span-1'>
+        className='min-h-screen grid grid-cols-section gap-0'>
+        <div className='bg-indigo-500'>
           <SideHeading
             title='Music + Videos'
             textColor='white'
@@ -14,13 +14,28 @@ export const Music = () => {
           />
         </div>
 
-        <div class='col-span-11 w-full flex items-center justify-center'>
-          <iframe
-            className=''
-            src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
-            frameBorder='0'
-            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            allowFullScreen></iframe>
+        <div className=' bg-white grid grid-rows-2 lg:grid lg:grid-cols-2 lg:mt-28'>
+          <div className='bg-red-300 flex items-center justify-center'>
+            <iframe
+              className=''
+              src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
+              width='90%'
+              height='75%'
+              frameBorder='0'
+              allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen></iframe>
+          </div>
+
+          <div className='bg-yellow-400 flex items-center justify-center'>
+            <iframe
+              className=''
+              src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
+              width='90%'
+              height='75%'
+              frameBorder='0'
+              allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+              allowFullScreen></iframe>
+          </div>
         </div>
       </section>
     </>

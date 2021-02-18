@@ -5,15 +5,15 @@ export const Store = () => {
     <>
       <section
         id='store-section'
-        className='min-h-screen grid grid-cols-12 gap-0 bg-dusty-gray'>
-        <div className='col-span-1'>
+        className='min-h-screen grid grid-cols-section gap-0 bg-blue-400'>
+        <div className=''>
           <SideHeading
             title='Store'
             textColor='mine-shaft'
             barsColor='green-800'
           />
         </div>
-        <div className='col-span-11'></div>
+        <div className='bg-purple-700'></div>
       </section>
     </>
   );
