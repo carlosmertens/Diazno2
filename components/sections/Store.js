@@ -7,7 +7,7 @@ export const Store = () => {
         id='store-section'
         className='min-h-screen grid grid-cols-section gap-0 bg-dusty-gray'>
         <div className=''>
-          <SideHeading title='Store' textColor='white' barsColor='green-400' />
+          <SideHeading title='Store' textColor='black' barsColor='green-400' />
         </div>
         <div className='grid grid-row-6 gap-4 md:grid-rows-3 md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 p-4'>
           <div className='bg-green-50'>1</div>

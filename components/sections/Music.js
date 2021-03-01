@@ -11,7 +11,7 @@ export const Music = () => {
           <SideHeading
             title='Music + Videos'
             textColor='white'
-            barsColor='pink-300'
+            barsColor='blue-500'
           />
         </div>
 

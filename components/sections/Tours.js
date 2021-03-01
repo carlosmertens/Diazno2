@@ -7,7 +7,7 @@ export const Tours = () => {
         id='tours-section'
         className='min-h-screen grid grid-cols-section gap-0 bg-dusty-gray'>
         <div className=''>
-          <SideHeading title='Tours' textColor='white' barsColor='pink-300' />
+          <SideHeading title='Tour' textColor='black' barsColor='pink-300' />
         </div>
         <div className=''></div>
       </section>
