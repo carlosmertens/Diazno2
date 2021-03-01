@@ -19,7 +19,7 @@ export const Music = () => {
           <div className='flex flex-col xl:flex-row items-center justify-center gap-4 md:gap-10'>
             <iframe
               className='md:w-2/3 md:h-2/5 xl:h-3/5'
-              src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
+              src='https://www.youtube.com/embed/wixAI79iV50'
               width='330'
               height='220'
               frameBorder='0'
@@ -27,7 +27,7 @@ export const Music = () => {
               allowFullScreen></iframe>
             <iframe
               className='md:w-2/3 md:h-2/5 xl:h-3/5 xl:mr-4'
-              src='https://www.youtube-nocookie.com/embed/FMrtSHAAPhM'
+              src='https://www.youtube.com/embed/I89EDHDJ2co'
               width='330'
               height='220'
               frameBorder='0'
