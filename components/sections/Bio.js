@@ -20,8 +20,10 @@ export const Bio = () => {
         </div>
         <div className=''>
           <BioText />
-          <div className='flex items-center justify-center'>
-            <h3 className='text-2xl uppercase'>Stay up to date!</h3>
+          <div className='flex flex-col md:flex-row items-center justify-center'>
+            <h3 className='text-mine-shaft text-xl font-bold md:text-4xl uppercase'>
+              Stay up to date!
+            </h3>
             <form onSubmit={handleSubmit}>
               <label className='hidden'>Email address</label>
               <input
@@ -29,7 +31,7 @@ export const Bio = () => {
                 placeholder='Email address'
                 value={subscriber}
                 onChange={(e) => setSubscriber(e.target.value)}
-                className='ml-6 px-1 py-2 focus:outline-none focus:ring-2 focus:ring-mine-shaft'
+                className='w-48 mb-4 md:ml-6 px-1 py-2 focus:outline-none focus:ring-2 focus:ring-mine-shaft'
                 required
               />
               <button className='bg-mine-shaft text-white px-2 py-2 outline-none hover:bg-dusty-gray hover:ring-2 hover:ring-mine-shaft focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:ring-opacity-50'>
