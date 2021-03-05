@@ -51,36 +51,36 @@ export const Navbar = () => {
         className={`${
           isOpen ? 'block' : 'hidden'
         } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
-        <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Music & Videos
-          </a>
-        </Link>
-        <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Tour
-          </a>
-        </Link>
-        <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Photos
-          </a>
-        </Link>
-        <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Store
-          </a>
-        </Link>
-        <Link href='/'>
-          <a className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Bio
-          </a>
-        </Link>
-        <Link href='/'>
-          <a className='block mt-4 px-3 pr-5 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
-            Contact
-          </a>
-        </Link>
+        <a
+          href='#music-section'
+          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Music & Videos
+        </a>
+        <a
+          href='#tours-section'
+          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Tour
+        </a>
+        <a
+          href='#photos-section'
+          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Photos
+        </a>
+        <a
+          href='#store-section'
+          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Store
+        </a>
+        <a
+          href='#bio-section'
+          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Bio
+        </a>
+        <a
+          href='#contact-section'
+          className='block mt-4 px-3 pr-5 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          Contact
+        </a>
       </div>
     </nav>
   );
