@@ -5,11 +5,13 @@ export const Music = () => {
   return (
     <section
       id='music-section'
-      className='min-h-screen md:grid md:grid-cols-section gap-0 bg-emperor'>
+      className='min-h-screen gap-0 bg-emperor'
+      // className='md:grid md:grid-cols-section'
+    >
       <div className=''>
         <SideHeading
           title='Music + Videos'
-          // textColor='white'
+          textColor='green-400'
           // barsColor='blue-500'
         />
       </div>
@@ -17,7 +19,7 @@ export const Music = () => {
       <div className='grid grid-rows-music mt-20'>
         <div className='flex flex-col xl:flex-row items-center justify-center gap-4 md:gap-10'>
           <iframe
-            className='md:w-2/3 md:h-2/5 xl:h-3/5'
+            className='md:w-2/3 md:h-2/3 xl:h-3/5'
             src='https://www.youtube.com/embed/wixAI79iV50'
             width='330'
             height='220'
@@ -25,7 +27,7 @@ export const Music = () => {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen></iframe>
           <iframe
-            className='md:w-2/3 md:h-2/5 xl:h-3/5 xl:mr-4'
+            className='md:w-2/3 md:h-2/3 xl:h-3/5 xl:mr-4'
             src='https://www.youtube.com/embed/I89EDHDJ2co'
             width='330'
             height='220'

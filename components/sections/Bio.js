@@ -11,11 +11,9 @@ export const Bio = () => {
     setSubscriber('');
   };
   return (
-    <section
-      id='bio-section'
-      className='min-h-screen grid grid-cols-section gap-0 bg-emperor'>
+    <section id='bio-section' className='min-h-screen  gap-0 bg-emperor'>
       <div className=''>
-        <SideHeading title='Bio' textColor='white' barsColor='blue-300' />
+        <SideHeading title='Bio' textColor='blue-300' barsColor='blue-300' />
       </div>
       <div className=''>
         <BioText />
