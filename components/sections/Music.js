@@ -5,16 +5,16 @@ export const Music = () => {
   return (
     <section
       id='music-section'
-      className='min-h-screen grid grid-cols-section gap-0 bg-emperor'>
+      className='min-h-screen md:grid md:grid-cols-section gap-0 bg-emperor'>
       <div className=''>
         <SideHeading
           title='Music + Videos'
-          textColor='white'
-          barsColor='blue-500'
+          // textColor='white'
+          // barsColor='blue-500'
         />
       </div>
 
-      <div className='grid grid-rows-music'>
+      <div className='grid grid-rows-music mt-20'>
         <div className='flex flex-col xl:flex-row items-center justify-center gap-4 md:gap-10'>
           <iframe
             className='md:w-2/3 md:h-2/5 xl:h-3/5'
