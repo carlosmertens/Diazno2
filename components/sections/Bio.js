@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SideHeading } from '../util/SideHeading';
+import { SectionHeading } from '../util/SectionHeading';
 import { BioText } from '../util//BioText';
 
 export const Bio = () => {
@@ -13,7 +13,7 @@ export const Bio = () => {
   return (
     <section id='bio-section' className='min-h-screen  gap-0 bg-emperor'>
       <div className=''>
-        <SideHeading
+        <SectionHeading
           title='Bio'
           textColor='blue-300'
           svgIcon={

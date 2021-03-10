@@ -1,5 +1,5 @@
 import { FaVimeo, FaSpotify, FaYoutube } from 'react-icons/fa';
-import { SideHeading } from '../util/SideHeading';
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Music = () => {
   return (
@@ -9,7 +9,7 @@ export const Music = () => {
       // className='md:grid md:grid-cols-section'
     >
       <div className=''>
-        <SideHeading
+        <SectionHeading
           title='Music + Videos'
           textColor='green-400'
           svgIcon={

@@ -1,10 +1,10 @@
-import { SideHeading } from '../util/SideHeading';
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Tours = () => {
   return (
     <section id='tours-section' className='min-h-screen  gap-0 bg-dusty-gray'>
       <div className=''>
-        <SideHeading
+        <SectionHeading
           title='Tour'
           textColor='indigo-700'
           svgIcon={

@@ -1,10 +1,10 @@
-import { SideHeading } from '../util/SideHeading';
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Photos = () => {
   return (
     <section id='photos-section' className='min-h-screen gap-0 bg-emperor'>
       <div className=''>
-        <SideHeading
+        <SectionHeading
           title='Photos'
           textColor='yellow-400'
           svgIcon={
