@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='p-4'>
           <Link href='/'>
-            <a className='text-5xl md:text-7xl text-white md:font-normal md:tracking-widest	hover:text-mine-shaft'>
+            <a className='text-5xl md:text-7xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:text-mine-shaft'>
               D!AZNO
             </a>
           </Link>
@@ -16,13 +16,13 @@ export const Navbar = () => {
 
         <div className='md:hidden pr-8'>
           <button
-            className='text-white hover:text-mine-shaft focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
+            className='text-mine-shaft hover:text-mine-shaft focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
             type='button'
             onClick={() => {
               setIsOpen(!isOpen);
             }}>
             <svg
-              className='h-10 w-10 fill-current'
+              className='h-11 w-11 fill-current'
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
@@ -53,32 +53,50 @@ export const Navbar = () => {
         } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <a
           href='#music-section'
-          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Music & Videos
         </a>
         <a
           href='#tours-section'
-          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Tour
         </a>
         <a
           href='#photos-section'
-          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Photos
         </a>
         <a
           href='#store-section'
-          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Store
         </a>
         <a
           href='#bio-section'
-          className='block mt-4 px-3 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Bio
         </a>
         <a
           href='#contact-section'
-          className='block mt-4 px-3 pr-5 py-1 text-white uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'>
+          className='block mt-4 px-3 pr-5 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}>
           Contact
         </a>
       </div>
