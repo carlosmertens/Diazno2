@@ -12,6 +12,21 @@ export const Music = () => {
         <SideHeading
           title='Music + Videos'
           textColor='green-400'
+          svgIcon={
+            <svg
+              className='h-10 w-10 mr-2 text-green-400'
+              xmlns='http://www.w3.org/2000/svg'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'>
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth={2}
+                d='M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3'
+              />
+            </svg>
+          }
           // barsColor='blue-500'
         />
       </div>
@@ -35,7 +50,7 @@ export const Music = () => {
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen></iframe>
         </div>
-        <div className='flex items-center justify-center'>
+        <div className='flex items-center justify-center mt-4'>
           <h2 className='text-white text-xl md:text-3xl lg:text-4xl uppercase'>
             Listen on &nbsp;
           </h2>
