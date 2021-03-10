@@ -1,7 +1,7 @@
 export const BioText = () => {
   return (
-    <div className='text-gray-300 m-12 md:m-28 text-lg md:text-2xl md:tracking-wide	grid gap-8 text-justify'>
-      <p className=''>
+    <div className='text-center text-gray-300 m-12 md:m-28 text-lg md:text-2xl md:tracking-wide	grid gap-8'>
+      <p>
         Born and raised in the city of Lagos, which is famous for gifting the
         world the musical genius of Fela Kuti, Diazno would come to discover his
         love for music and a fondness for the guitar in his early teens. What
@@ -9,7 +9,7 @@ export const BioText = () => {
         which saw him abandon all other thoughts and firmly set his sights on a
         career in music.
       </p>
-      <p className=''>
+      <p>
         Demonstrating his brilliant work ethic, Diazno graduated top of his class
         at the prestigious school of music, Musical Society of Nigeria (MUSON).
         His academic success was swiftly met with incredible opportunities,
@@ -17,7 +17,7 @@ export const BioText = () => {
         Festival and the Lagos International Jazz Festival. Not to mention,
         receiving a teaching position at MUSON.
       </p>
-      <p className=''>
+      <p>
         Following a move to Berlin in the summer of 2016, other aspects of his
         musicianship would begin to unravel. The classically-trained musician
         developed his craft into a singer/songwriter whose vocals have drawn
