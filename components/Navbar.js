@@ -1,10 +1,10 @@
-import Link from 'next/link';
-import { useState } from 'react';
+import Link from "next/link";
+import { useState } from "react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className='fixed inset-x-0 top-0 md:flex md:items-center md:justify-between bg-gradient-to-b from-red-50'>
+    <nav className='fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between bg-gradient-to-b from-red-50'>
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='p-4'>
           <Link href='/'>
@@ -49,7 +49,7 @@ export const Navbar = () => {
 
       <div
         className={`${
-          isOpen ? 'block' : 'hidden'
+          isOpen ? "block" : "hidden"
         } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <a
           href='#music-section'
