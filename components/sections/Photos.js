@@ -27,76 +27,63 @@ export const Photos = () => {
             />
           </svg>
         }
-        // barsColor='yellow-300'
       />
 
-      <div className='mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
+      <div className='mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
         <div className='space-y-12'>
-          <ul className='space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8'>
+          <ul className='space-y-6 sm:grid sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8'>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic2.jpg'
-                    alt='Photo2'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic2.jpg'
+                  alt='Photo2'
+                />
               </div>
             </li>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic3.jpg'
-                    alt='Photo3'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic3.jpg'
+                  alt='Photo3'
+                />
               </div>
             </li>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic4.jpg'
-                    alt='Photo4'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic4.jpg'
+                  alt='Photo4'
+                />
               </div>
             </li>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic5.jpg'
-                    alt='Photo5'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic5.jpg'
+                  alt='Photo5'
+                />
               </div>
             </li>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic6.jpg'
-                    alt='Photo6'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic6.jpg'
+                  alt='Photo6'
+                />
               </div>
             </li>
             <li>
-              <div className='space-y-4'>
-                <div className='aspect-w-4 aspect-h-3'>
-                  <img
-                    className='object-cover shadow-lg rounded-lg'
-                    src='/img/pic1.jpg'
-                    alt='Photo1'
-                  />
-                </div>
+              <div className='aspect-w-4 aspect-h-3'>
+                <img
+                  className='object-cover shadow-lg rounded-lg'
+                  src='/img/pic1.jpg'
+                  alt='Photo1'
+                />
               </div>
             </li>
           </ul>
