@@ -1,23 +1,23 @@
-import { useState } from 'react';
-import { SectionHeading } from '../util/SectionHeading';
-import { BioText } from '../util//BioText';
+import { useState } from "react";
+import { SectionHeading } from "../util/SectionHeading";
+import { BioText } from "../util//BioText";
 
 export const Bio = () => {
-  const [subscriber, setSubscriber] = useState('');
+  const [subscriber, setSubscriber] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
     // REMOVE CONSOLE.LOG
-    console.log(subscriber, 'has subscribed!!!');
-    setSubscriber('');
+    console.log(subscriber, "has subscribed!!!");
+    setSubscriber("");
   };
   return (
     <section id='bio-section' className='min-h-screen  gap-0 bg-emperor'>
       <SectionHeading
         title='Bio'
-        textColor='blue-300'
+        textColor='mine-shaft'
         svgIcon={
           <svg
-            className='h-10 w-10 mr-2 text-blue-300'
+            className='h-10 w-10 mr-2 mine-shaft'
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'

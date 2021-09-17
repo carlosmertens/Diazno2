@@ -1,5 +1,5 @@
-import { FaVimeo, FaSpotify, FaYoutube } from 'react-icons/fa';
-import { SectionHeading } from '../util/SectionHeading';
+import { FaVimeo, FaSpotify, FaYoutube } from "react-icons/fa";
+import { SectionHeading } from "../util/SectionHeading";
 
 export const Music = () => {
   return (
@@ -11,10 +11,10 @@ export const Music = () => {
       <div className=''>
         <SectionHeading
           title='Music + Videos'
-          textColor='green-400'
+          textColor='mine-shaft'
           svgIcon={
             <svg
-              className='h-10 w-10 mr-2 text-green-400'
+              className='h-10 w-10 mr-2 mine-shaft'
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
@@ -27,7 +27,7 @@ export const Music = () => {
               />
             </svg>
           }
-          // barsColor='blue-500'
+          barsColor='blue-500'
         />
       </div>
 

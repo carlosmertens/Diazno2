@@ -4,7 +4,7 @@ export const SectionHeading = (props) => {
       {/* <div className={`w-2 h-40 bg-${props.barsColor} md:h-48`}></div> */}
       {props.svgIcon}
       <h2
-        className={`text-xl text-${props.textColor} cursor-default`}
+        className={`text-2xl text-${props.textColor} font-bold	cursor-default`}
         // className='md:transform md:rotate-180 '
         // style={{ writingMode: 'vertical-rl' }}
       >

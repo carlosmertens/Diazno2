@@ -1,4 +1,4 @@
-import { SectionHeading } from '../util/SectionHeading';
+import { SectionHeading } from "../util/SectionHeading";
 
 export const Tours = () => {
   return (
@@ -6,10 +6,10 @@ export const Tours = () => {
       <div className=''>
         <SectionHeading
           title='Tour'
-          textColor='indigo-700'
+          textColor='mine-shaft'
           svgIcon={
             <svg
-              className='h-10 w-10 mr-2 text-indigo-700'
+              className='h-10 w-10 mr-2 mine-shaft'
               xmlns='http://www.w3.org/2000/svg'
               fill='none'
               viewBox='0 0 24 24'
