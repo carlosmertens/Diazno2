@@ -1,16 +1,11 @@
 export const SectionHeading = (props) => {
   return (
-    <div className='h-full flex flex-row p-4 items-center '>
-      {/* <div className={`w-2 h-40 bg-${props.barsColor} md:h-48`}></div> */}
+    <div className='flex flex-row pt-6 pl-4 items-center'>
       {props.svgIcon}
       <h2
-        className={`text-2xl text-${props.textColor} font-bold	cursor-default`}
-        // className='md:transform md:rotate-180 '
-        // style={{ writingMode: 'vertical-rl' }}
-      >
+        className={`text-2xl text-${props.textColor} font-bold cursor-default`}>
         {props.title}
       </h2>
-      {/* <div className={`w-2 h-40 bg-${props.barsColor} md:h-48`}></div> */}
     </div>
   );
 };
