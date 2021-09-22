@@ -19,9 +19,9 @@ export default function Home() {
         <Hero />
         <MainLayout>
           <Music />
-          <Tours />
+          {/* <Tours /> */}
           <Photos />
-          <Store />
+          {/* <Store /> */}
           <Bio />
           <Contact />
         </MainLayout>
