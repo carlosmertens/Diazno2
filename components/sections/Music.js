@@ -1,19 +1,19 @@
-import { FaVimeo, FaSpotify, FaYoutube } from "react-icons/fa";
-import { SectionHeading } from "../util/SectionHeading";
+import { FaVimeo, FaSpotify, FaYoutube } from 'react-icons/fa';
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Music = () => {
   return (
     <section
       id='music-section'
-      className='min-h-screen gap-0 bg-emperor'
+      className='min-h-screen gap-0 bg-black'
       // className='md:grid md:grid-cols-section'
     >
       <SectionHeading
         title='Music + Videos'
-        textColor='mine-shaft'
+        textColor='white'
         svgIcon={
           <svg
-            className='h-10 w-10 mr-2 mine-shaft'
+            className='h-10 w-10 mr-2 text-white'
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'
@@ -46,7 +46,7 @@ export const Music = () => {
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen></iframe>
       </div>
-      <div className='flex items-center justify-center mt-8'>
+      {/* <div className='flex items-center justify-center mt-8'>
         <h2 className='text-mine-shaft font-bold text-xl md:text-3xl lg:text-4xl uppercase'>
           Listen on &nbsp;
         </h2>
@@ -71,7 +71,7 @@ export const Music = () => {
           className='px-2 text-red-500 focus:outline-none'>
           <FaYoutube className='hover:text-red-200 text-3xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110' />
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
