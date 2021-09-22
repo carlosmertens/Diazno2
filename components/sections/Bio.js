@@ -45,10 +45,10 @@ export const Bio = () => {
               placeholder='Email address'
               value={subscriber}
               onChange={(e) => setSubscriber(e.target.value)}
-              className='w-48 mb-4 md:ml-6 px-1 py-2 focus:outline-none focus:ring-2 focus:ring-mine-shaft'
+              className='w-48 md:ml-6 px-1 py-2 focus:outline-none focus:ring-2 focus:ring-mine-shaft'
               required
             />
-            <button className='bg-mine-shaft text-white px-2 py-2 outline-none hover:bg-dusty-gray hover:ring-2 hover:ring-mine-shaft focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:ring-opacity-50'>
+            <button className='bg-mine-shaft text-white px-2 outline-none hover:bg-dusty-gray hover:ring-2 hover:ring-mine-shaft focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:ring-opacity-50'>
               Subscribe
             </button>
           </form>

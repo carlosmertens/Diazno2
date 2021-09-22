@@ -1,6 +1,6 @@
 export const BioText = () => {
   return (
-    <div className='text-center text-white m-12 md:m-28 text-lg md:text-2xl md:tracking-wide	grid gap-8'>
+    <div className='text-center text-white mx-12 mb-8 md:m-28 text-lg md:text-2xl md:tracking-wide	grid gap-8'>
       <p>
         Born and raised in the city of Lagos, which is famous for gifting the
         world the musical genius of Fela Kuti, Diazno would come to discover his

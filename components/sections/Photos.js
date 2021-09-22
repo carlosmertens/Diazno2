@@ -2,7 +2,7 @@ import { SectionHeading } from '../util/SectionHeading';
 
 export const Photos = () => {
   return (
-    <section id='photos-section' className='min-h-screen gap-0 bg-black'>
+    <section id='photos-section' className='bg-black'>
       <SectionHeading
         title='Photos'
         textColor='white'
@@ -29,7 +29,7 @@ export const Photos = () => {
         }
       />
 
-      <div className='mx-auto py-12 px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
+      <div className='mx-auto px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
         <div className='space-y-12'>
           <ul className='space-y-6 sm:grid sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8'>
             <li>

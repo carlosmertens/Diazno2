@@ -5,7 +5,7 @@ export const Music = () => {
   return (
     <section
       id='music-section'
-      className='min-h-screen gap-0 bg-black'
+      className='bg-black'
       // className='md:grid md:grid-cols-section'
     >
       <SectionHeading
@@ -28,7 +28,7 @@ export const Music = () => {
         }
       />
 
-      <div className='flex flex-col items-center justify-center mt-8 gap-6 md:gap-10 xl:flex-row'>
+      <div className='flex flex-col items-center justify-center gap-12 md:gap-10 xl:flex-row'>
         <iframe
           className='md:w-2/3 md:h-2/3 xl:h-3/5 border-2 rounded-md border-dusty-gray'
           src='https://www.youtube.com/embed/wixAI79iV50'

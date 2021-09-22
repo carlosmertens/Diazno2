@@ -2,10 +2,10 @@ import { SectionHeading } from '../util/SectionHeading';
 
 export const Contact = () => {
   return (
-    <section id='contact-section' className='min-h-screen gap-0 bg-black'>
+    <section id='contact-section' className='min-h-screen bg-black'>
       <div className=''>
         <SectionHeading
-          title='Contact'
+          title='Contact us'
           textColor='white'
           svgIcon={
             <svg
