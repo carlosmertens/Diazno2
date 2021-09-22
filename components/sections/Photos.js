@@ -1,14 +1,14 @@
-import { SectionHeading } from "../util/SectionHeading";
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Photos = () => {
   return (
-    <section id='photos-section' className='min-h-screen gap-0 bg-emperor'>
+    <section id='photos-section' className='min-h-screen gap-0 bg-black'>
       <SectionHeading
         title='Photos'
-        textColor='mine-shaft'
+        textColor='white'
         svgIcon={
           <svg
-            className='h-10 w-10 mr-2 mine-shaft'
+            className='h-10 w-10 mr-2 text-white'
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'
