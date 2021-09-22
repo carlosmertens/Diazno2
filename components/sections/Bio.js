@@ -1,23 +1,23 @@
-import { useState } from "react";
-import { SectionHeading } from "../util/SectionHeading";
-import { BioText } from "../util//BioText";
+import { useState } from 'react';
+import { SectionHeading } from '../util/SectionHeading';
+import { BioText } from '../util//BioText';
 
 export const Bio = () => {
-  const [subscriber, setSubscriber] = useState("");
+  const [subscriber, setSubscriber] = useState('');
   const handleSubmit = (e) => {
     e.preventDefault();
     // REMOVE CONSOLE.LOG
-    console.log(subscriber, "has subscribed!!!");
-    setSubscriber("");
+    console.log(subscriber, 'has subscribed!!!');
+    setSubscriber('');
   };
   return (
-    <section id='bio-section' className='min-h-screen  gap-0 bg-emperor'>
+    <section id='bio-section' className='min-h-screen  gap-0 bg-black'>
       <SectionHeading
         title='Bio'
-        textColor='mine-shaft'
+        textColor='white'
         svgIcon={
           <svg
-            className='h-10 w-10 mr-2 mine-shaft'
+            className='h-10 w-10 mr-2 text-white'
             xmlns='http://www.w3.org/2000/svg'
             fill='none'
             viewBox='0 0 24 24'
@@ -35,7 +35,7 @@ export const Bio = () => {
       <div className=''>
         <BioText />
         <div className='flex flex-col md:flex-row items-center justify-center pb-6'>
-          <h3 className='text-mine-shaft text-xl font-bold md:text-4xl uppercase'>
+          <h3 className='text-white text-xl font-bold pb-4 md:text-4xl uppercase'>
             Stay up to date!
           </h3>
           <form onSubmit={handleSubmit}>
