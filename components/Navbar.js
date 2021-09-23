@@ -50,7 +50,7 @@ export const Navbar = () => {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } min-h-screen px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
+        } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <a
           href='#music-section'
           className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
@@ -93,7 +93,7 @@ export const Navbar = () => {
         </a>
         <a
           href='#contact-section'
-          className='block mt-4 px-3 pr-5 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 pr-5 py-1 mb-32 md:mb-0 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
