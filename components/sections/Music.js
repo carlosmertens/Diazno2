@@ -30,7 +30,7 @@ export const Music = () => {
 
       <div className='flex flex-col items-center justify-center gap-12 md:gap-10 xl:flex-row'>
         <iframe
-          className='md:w-2/3 md:h-2/3 xl:h-3/5 border-2 rounded-md border-dusty-gray'
+          className='md:w-2/3 md:h-96 border-2 rounded-md border-dusty-gray'
           src='https://www.youtube.com/embed/wixAI79iV50'
           width='330'
           height='220'
@@ -38,7 +38,7 @@ export const Music = () => {
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen></iframe>
         <iframe
-          className='md:w-2/3 md:h-2/3 xl:h-3/5 xl:mr-4 border-2 rounded-md border-dusty-gray'
+          className='md:w-2/3 md:h-96 xl:mr-4 border-2 rounded-md border-dusty-gray'
           src='https://www.youtube.com/embed/I89EDHDJ2co'
           width='330'
           height='220'
