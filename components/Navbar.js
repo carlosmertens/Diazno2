@@ -16,7 +16,7 @@ export const Navbar = () => {
 
         <div className='md:hidden pr-8'>
           <button
-            className='text-mine-shaft hover:text-mine-shaft focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
+            className='text-black hover:text-mine-shaft focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
             type='button'
             onClick={() => {
               setIsOpen(!isOpen);
@@ -50,42 +50,42 @@ export const Navbar = () => {
       <div
         className={`${
           isOpen ? 'block' : 'hidden'
-        } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
+        } min-h-screen px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <a
           href='#music-section'
-          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
           Music & Videos
         </a>
-        <a
+        {/* <a
           href='#tours-section'
           className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
           Tour
-        </a>
+        </a> */}
         <a
           href='#photos-section'
-          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
           Photos
         </a>
-        <a
+        {/* <a
           href='#store-section'
           className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
           Store
-        </a>
+        </a> */}
         <a
           href='#bio-section'
-          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -93,7 +93,7 @@ export const Navbar = () => {
         </a>
         <a
           href='#contact-section'
-          className='block mt-4 px-3 pr-5 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 pr-5 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
