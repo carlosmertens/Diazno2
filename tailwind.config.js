@@ -19,9 +19,6 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         hero: "url('/background.jpg')",
-        'hero-sm': "url('/hero-sm.jpg')",
-        'hero-md': "url('/hero-md.jpg')",
-        'hero-lg': "url('/hero-lg.jpg')",
       }),
     },
   },

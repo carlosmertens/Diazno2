@@ -5,9 +5,9 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 
-const ShareSocial = ({ transparent }) => {
+const SocialMedia = ({ transparent }) => {
   return (
-    <div className='social-media text-xl flex items-center justify-center'>
+    <div className='text-xl pt-2 flex items-center justify-center'>
       <a
         target='_blank'
         rel='noreferrer noopener'
@@ -40,4 +40,4 @@ const ShareSocial = ({ transparent }) => {
   );
 };
 
-export default ShareSocial;
+export default SocialMedia;
