@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='pl-4'>
           <Link href='/'>
-            <a className='text-5xl md:text-7xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:text-mine-shaft'>
+            <a className='text-5xl md:text-6xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:text-mine-shaft'>
               DIAZNO
             </a>
           </Link>
