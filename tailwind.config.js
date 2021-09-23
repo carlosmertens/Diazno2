@@ -18,6 +18,7 @@ module.exports = {
         scorpion: '#5C5C5C',
       },
       backgroundImage: (theme) => ({
+        hero: "url('/background.jpg')",
         'hero-sm': "url('/hero-sm.jpg')",
         'hero-md': "url('/hero-md.jpg')",
         'hero-lg': "url('/hero-lg.jpg')",
