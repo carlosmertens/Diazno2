@@ -7,11 +7,11 @@ export const Bio = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // REMOVE CONSOLE.LOG
-    console.log(subscriber, 'has subscribed!!!');
+    // console.log(subscriber, 'has subscribed!!!');
     setSubscriber('');
   };
   return (
-    <section id='bio-section' className='min-h-screen  gap-0 bg-black'>
+    <section id='bio-section' className='bg-black'>
       <SectionHeading
         title='Bio'
         textColor='white'
@@ -30,11 +30,15 @@ export const Bio = () => {
             />
           </svg>
         }
-        // barsColor='blue-300'
       />
-      <div className=''>
+      <div className='mx-6'>
+        <img
+          className='float-left h-60 rounded-lg mt-1 mr-2'
+          src='/imageBio.jpg'
+          alt='Bio photo'
+        />
         <BioText />
-        <div className='flex flex-col md:flex-row items-center justify-center pb-6'>
+        <div className='flex flex-col mt-10 md:flex-row items-center justify-center pb-6'>
           <h3 className='text-white text-xl font-bold pb-4 md:text-4xl uppercase'>
             Stay up to date!
           </h3>
@@ -45,10 +49,10 @@ export const Bio = () => {
               placeholder='Email address'
               value={subscriber}
               onChange={(e) => setSubscriber(e.target.value)}
-              className='w-48 md:ml-6 px-1 py-2 focus:outline-none focus:ring-2 focus:ring-mine-shaft'
+              className='w-48 px-1 py-2 rounded-l focus:outline-none focus:ring-2 focus:ring-mine-shaft md:ml-6'
               required
             />
-            <button className='bg-mine-shaft text-white px-2 outline-none hover:bg-dusty-gray hover:ring-2 hover:ring-mine-shaft focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:ring-opacity-50'>
+            <button className='bg-mine-shaft text-white px-4 py-2 rounded-r outline-none hover:bg-dusty-gray hover:ring-2 hover:ring-mine-shaft focus:outline-none focus:ring-2 focus:ring-mine-shaft focus:ring-opacity-50'>
               Subscribe
             </button>
           </form>
