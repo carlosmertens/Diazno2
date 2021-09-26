@@ -4,7 +4,10 @@ import { useState } from 'react';
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className='fixed inset-x-0 top-0 z-10 bg-gradient-to-b from-gray-50 md:flex md:items-center md:justify-between'>
+    <nav
+      className={`${
+        isOpen ? 'bg-white rounded-b' : 'bg-gradient-to-b from-gray-50'
+      } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between`}>
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='pl-4'>
           <Link href='/'>
@@ -93,7 +96,7 @@ export const Navbar = () => {
         </a>
         <a
           href='#contact-section'
-          className='block mt-4 px-3 pr-5 py-1 mb-32 md:mb-0 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 pr-5 py-1 md:mb-0 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
