@@ -7,11 +7,11 @@ export const Navbar = () => {
     <nav
       className={`${
         isOpen ? 'bg-white rounded-b' : 'bg-gradient-to-b from-gray-50'
-      } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between`}>
+      } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between pr-16`}>
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='pl-4'>
           <Link href='/'>
-            <a className='logo text-5xl md:text-6xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:text-mine-shaft'>
+            <a className='logo text-5xl md:text-6xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:underline'>
               DIAZNO
             </a>
           </Link>
@@ -56,7 +56,7 @@ export const Navbar = () => {
         } px-2 pl-6 pt-2 pb-8 md:flex md:items-center md:justify-between`}>
         <a
           href='#music-section'
-          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-base text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -64,7 +64,7 @@ export const Navbar = () => {
         </a>
         {/* <a
           href='#tours-section'
-          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-base text-black uppercase md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -72,7 +72,7 @@ export const Navbar = () => {
         </a> */}
         <a
           href='#photos-section'
-          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-base text-black font-bold uppercase md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -80,7 +80,7 @@ export const Navbar = () => {
         </a>
         {/* <a
           href='#store-section'
-          className='block mt-4 px-3 py-1 text-mine-shaft uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-base text-black uppercase md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -88,7 +88,7 @@ export const Navbar = () => {
         </a> */}
         <a
           href='#bio-section'
-          className='block mt-4 px-3 py-1 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 py-1 text-base text-black font-bold uppercase md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
@@ -96,7 +96,7 @@ export const Navbar = () => {
         </a>
         <a
           href='#contact-section'
-          className='block mt-4 px-3 pr-5 py-1 md:mb-0 text-lg text-black font-bold uppercase md:font-bold md:tracking-widest rounded hover:text-mine-shaft'
+          className='block mt-4 px-3 pr-5 py-1 md:mb-0 text-base text-black font-bold uppercase md:tracking-widest rounded hover:bg-gray-100 xl:text-lg'
           onClick={() => {
             setIsOpen(!isOpen);
           }}>
