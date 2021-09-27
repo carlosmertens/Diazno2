@@ -1,9 +1,9 @@
 export const SectionHeading = (props) => {
   return (
-    <div className='flex flex-row pt-8 pb-8 justify-center items-center'>
+    <div className='flex flex-row pt-10 pb-10 justify-center items-center'>
       {props.svgIcon}
       <h2
-        className={`text-2xl text-${props.textColor} font-bold cursor-default`}>
+        className={`text-2xl text-${props.textColor} font-bold cursor-default xl:text-3xl`}>
         {props.title}
       </h2>
     </div>
