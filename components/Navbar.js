@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav
       className={`${
         isOpen ? 'bg-white rounded-b' : 'bg-gradient-to-b from-gray-50'
-      } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between pr-16`}>
+      } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between xl:pr-16`}>
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
         <div className='pl-4'>
           <Link href='/'>
