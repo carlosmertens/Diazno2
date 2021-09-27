@@ -31,7 +31,7 @@ export const Photos = () => {
 
       <div className='mx-auto px-6 max-w-7xl sm:px-6 lg:px-8 lg:py-24'>
         <div className='space-y-12'>
-          <ul className='space-y-6 sm:grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-3  lg:space-y-0 lg:gap-x-4 lg:gap-y-4'>
+          <ul className='space-y-6 sm:grid sm:grid-cols-2 md:grid-cols-1 md:gap-y-4 lg:grid-cols-3  lg:space-y-0 lg:gap-x-4 lg:gap-y-4'>
             <li>
               <div className='aspect-w-4 aspect-h-3'>
                 <img

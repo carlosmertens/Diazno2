@@ -31,9 +31,9 @@ export const Bio = () => {
           </svg>
         }
       />
-      <div className='mx-6 xl:mx-28'>
+      <div className='mx-6 md:mx-6 xl:mx-28'>
         <img
-          className='float-left h-60 rounded-lg mt-1 mr-2 xl:h-96'
+          className='float-left h-60 rounded-lg mt-1 mr-2 md:h-80 xl:h-96'
           src='/imageBio.jpg'
           alt='Bio photo'
         />
