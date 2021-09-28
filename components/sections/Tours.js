@@ -1,8 +1,8 @@
-import { SectionHeading } from "../util/SectionHeading";
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Tours = () => {
   return (
-    <section id='tours-section' className='min-h-screen  gap-0 bg-dusty-gray'>
+    <section id='tours-section' className='min-h-screen'>
       <div className=''>
         <SectionHeading
           title='Tour'

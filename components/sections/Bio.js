@@ -11,7 +11,7 @@ export const Bio = () => {
     setSubscriber('');
   };
   return (
-    <section id='bio-section' className='bg-black'>
+    <section id='bio-section'>
       <SectionHeading
         title='Bio'
         textColor='white'

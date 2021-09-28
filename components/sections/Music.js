@@ -3,7 +3,7 @@ import { SectionHeading } from '../util/SectionHeading';
 
 export const Music = () => {
   return (
-    <section id='music-section' className='bg-black'>
+    <section id='music-section'>
       <SectionHeading
         title='Music + Videos'
         textColor='white'

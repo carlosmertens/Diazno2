@@ -1,8 +1,8 @@
-import { SectionHeading } from "../util/SectionHeading";
+import { SectionHeading } from '../util/SectionHeading';
 
 export const Store = () => {
   return (
-    <section id='store-section' className='min-h-screen  gap-0 bg-dusty-gray'>
+    <section id='store-section' className='min-h-screen'>
       <div className=''>
         <SectionHeading
           title='Store'

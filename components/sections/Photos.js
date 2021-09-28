@@ -2,7 +2,7 @@ import { SectionHeading } from '../util/SectionHeading';
 
 export const Photos = () => {
   return (
-    <section id='photos-section' className='bg-black'>
+    <section id='photos-section'>
       <SectionHeading
         title='Photos'
         textColor='white'

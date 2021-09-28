@@ -1,3 +1,3 @@
 export const MainLayout = ({ children }) => {
-  return <main>{children}</main>;
+  return <main className='bg-black'>{children}</main>;
 };

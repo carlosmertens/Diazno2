@@ -2,7 +2,7 @@ import { SectionHeading } from '../util/SectionHeading';
 
 export const Contact = () => {
   return (
-    <section id='contact-section' className='min-h-screen bg-black'>
+    <section id='contact-section' className='min-h-screen'>
       <div className=''>
         <SectionHeading
           title='Contact us'
