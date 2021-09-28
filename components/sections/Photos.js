@@ -1,8 +1,10 @@
 import { SectionHeading } from '../util/SectionHeading';
+import { PhotoDisplay } from '../util/PhotoDisplay';
 
 export const Photos = () => {
   return (
     <section id='photos-section'>
+      {/* ===== SECTION TITLE ===== */}
       <SectionHeading
         title='Photos'
         textColor='white'
@@ -29,62 +31,27 @@ export const Photos = () => {
         }
       />
 
+      {/* ===== PHOTO COLLAGE ===== */}
       <div className='mx-auto px-6 max-w-7xl sm:px-6 lg:px-8'>
         <div className='space-y-12'>
           <ul className='space-y-6 sm:grid sm:grid-cols-2 md:grid-cols-1 md:gap-y-4 lg:grid-cols-3  lg:space-y-0 lg:gap-x-4 lg:gap-y-4'>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic2.jpg'
-                  alt='Photo2'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic2.jpg' alt='Photo2' />
             </li>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic3.jpg'
-                  alt='Photo3'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic3.jpg' alt='Photo3' />
             </li>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic4.jpg'
-                  alt='Photo4'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic4.jpg' alt='Photo4' />
             </li>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic5.jpg'
-                  alt='Photo5'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic5.jpg' alt='Photo5' />
             </li>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic6.jpg'
-                  alt='Photo6'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic6.jpg' alt='Photo6' />
             </li>
             <li>
-              <div className='aspect-w-4 aspect-h-3'>
-                <img
-                  className='object-cover shadow-lg rounded-lg'
-                  src='/img/pic1.jpg'
-                  alt='Photo1'
-                />
-              </div>
+              <PhotoDisplay image='/img/pic1.jpg' alt='Photo1' />
             </li>
           </ul>
         </div>
