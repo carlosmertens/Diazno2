@@ -5,7 +5,7 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 
-const SocialMedia = ({ transparent }) => {
+const SocialMedia = () => {
   return (
     <div className='text-xl pt-2 flex items-center justify-center'>
       <a

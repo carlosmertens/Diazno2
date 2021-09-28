@@ -4,6 +4,7 @@ export const Tours = () => {
   return (
     <section id='tours-section' className='min-h-screen'>
       <div className=''>
+        {/* ===== SECTION TITLE ====== */}
         <SectionHeading
           title='Tour'
           textColor='mine-shaft'
@@ -22,7 +23,6 @@ export const Tours = () => {
               />
             </svg>
           }
-          // barsColor='pink-300'
         />
       </div>
       <div className=''></div>

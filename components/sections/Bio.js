@@ -12,6 +12,7 @@ export const Bio = () => {
   };
   return (
     <section id='bio-section'>
+      {/* ===== SECTION TITLE ===== */}
       <SectionHeading
         title='Bio'
         textColor='white'
@@ -31,13 +32,17 @@ export const Bio = () => {
           </svg>
         }
       />
+      {/* ===== BIO CONTENT ===== */}
       <div className='mx-6 md:mx-6 xl:mx-28'>
+        {/* BIO IMAGE */}
         <img
           className='float-left h-60 rounded-lg mt-1 mr-2 md:h-80 xl:h-96'
           src='/imageBio.jpg'
           alt='Bio photo'
         />
+        {/* BIO TEXT */}
         <BioText />
+        {/* FORM SUBSCRIBE */}
         <div className='flex flex-col mt-10 md:flex-row items-center justify-center pb-6'>
           <h3 className='text-white text-xl font-bold pb-4 md:text-4xl uppercase'>
             Stay up to date!

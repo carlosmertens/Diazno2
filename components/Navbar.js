@@ -9,6 +9,7 @@ export const Navbar = () => {
         isOpen ? 'bg-white rounded-b' : 'bg-gradient-to-b from-gray-50'
       } fixed inset-x-0 top-0 z-10 md:flex md:items-center md:justify-between xl:pr-16`}>
       <div className='flex items-center justify-between md:pl-8 md:py-6 py-4'>
+        {/* ===== LOGO ===== */}
         <div className='pl-4'>
           <Link href='/'>
             <a className='logo text-5xl md:text-6xl font-medium text-mine-shaft md:font-normal md:tracking-widest	hover:underline'>
@@ -17,6 +18,7 @@ export const Navbar = () => {
           </Link>
         </div>
 
+        {/* ===== SMALL SCREEN MENU BUTTON ===== */}
         <div className='md:hidden pr-8'>
           <button
             className='text-black hover:text-mine-shaft focus:outline-none transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'
@@ -49,7 +51,7 @@ export const Navbar = () => {
           </button>
         </div>
       </div>
-
+      {/* ===== NAVBAR LINKS ===== */}
       <div
         className={`${
           isOpen ? 'block' : 'hidden'

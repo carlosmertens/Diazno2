@@ -4,6 +4,7 @@ import { SectionHeading } from '../util/SectionHeading';
 export const Music = () => {
   return (
     <section id='music-section'>
+      {/* ===== SECTION TITLE ===== */}
       <SectionHeading
         title='Music + Videos'
         textColor='white'
@@ -24,7 +25,9 @@ export const Music = () => {
         }
       />
 
+      {/* ===== VIDEOS DISPLAY ===== */}
       <div className='flex flex-col items-center justify-center gap-10 xl:flex-row xl:ml-4'>
+        {/* VIDEO ONE */}
         <iframe
           className='md:w-11/12 md:h-96 border-2 rounded-md border-dusty-gray'
           src='https://www.youtube.com/embed/wixAI79iV50'
@@ -33,6 +36,7 @@ export const Music = () => {
           frameBorder='0'
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen></iframe>
+        {/* VIDEO TWO */}
         <iframe
           className='md:w-11/12 md:h-96 xl:mr-4 border-2 rounded-md border-dusty-gray'
           src='https://www.youtube.com/embed/I89EDHDJ2co'
@@ -42,6 +46,7 @@ export const Music = () => {
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen></iframe>
       </div>
+      {/* ===== LINKS TO EXTERNAL VIDEOS ===== */}
       {/* <div className='flex items-center justify-center mt-8'>
         <h2 className='text-mine-shaft font-bold text-xl md:text-3xl lg:text-4xl uppercase'>
           Listen on &nbsp;
