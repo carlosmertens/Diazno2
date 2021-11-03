@@ -1,29 +1,36 @@
 export const BioText = () => {
   return (
-    <div className='text-white text-lg tracking-wide leading-8 text-center md:text-2xl md:tracking-wider md:leading-10'>
+    <div className='text-white text-lg tracking-wide leading-8 text-justify md:text-2xl md:tracking-wider md:leading-10'>
       <p>
-        Born and raised in the city of Lagos, which is famous for gifting the
-        world the musical genius of Fela Kuti, Diazno would come to discover his
-        love for music and a fondness for the guitar in his early teens. What
-        seemed to be a teenage fling quite dramatically morphed into raw passion
-        which saw him abandon all other thoughts and firmly set his sights on a
-        career in music.
+        DIAZNO, the Berlin based singer-songwriter and producer, is carving a
+        niche for himself with an audacious sound blending everything from pop
+        to folk, soul, rock and reggae. Born and raised in Lagos, Nigeria, the
+        multi-instrumentalist grew up playing in church and studying classical
+        music but since moving to Berlin in 2016 has redefined his music.
       </p>
+      <br />
       <p>
-        Demonstrating his brilliant work ethic, Diazno graduated top of his
-        class at the prestigious school of music, Musical Society of Nigeria
-        (MUSON). His academic success was swiftly met with incredible
-        opportunities, including working as music director for various acts at
-        the Lagos Theatre Festival and the Lagos International Jazz Festival.
-        Not to mention, receiving a teaching position at MUSON.
+        On stage, he packs the effervescence and drive expected of a musician
+        not very keen on boundaries or holding back making every song an intense
+        experience. Although notorious for larger-than-life-sounding
+        productions, full of movement and colours, he is not afraid to strip it
+        all away and deliver his songs just as he wrote them - with his soulful
+        voice and guitar.
       </p>
+      <br />
       <p>
-        Following a move to Berlin in the summer of 2016, other aspects of his
-        musicianship would begin to unravel. The classically-trained musician
-        developed his craft into a singer/songwriter whose vocals have drawn
-        strong comparisons to John Legend. An artist not afraid of boundaries,
-        Diazno’s music is a daring mix of afro-influenced Pop/Rock with a hint
-        of soul and reggae.
+        An avid storyteller, DIAZNO’s lyrics take the listener on a
+        rollercoaster of emotions, encompassing themes of love, heartbreak,
+        tragedy and joy - in his words, “…these are our stories, and they must
+        be told…”.
+      </p>
+      <br />
+      <p>
+        As a guitarist, DIAZNO has collaborated with artists like Amaarae, Nick
+        Talos, Anoki, Feven Yoseph among others. He has spent the bulk of 2020
+        and 2021 recording new music for his debut solo project in Lagos and
+        Berlin. DIAZNO is set to return to the stage in 2022 with his new
+        backing band and newly recorded material.
       </p>
     </div>
   );
